@@ -1,7 +1,7 @@
 {
-    "name" : "vandpibe/skeleton",
+    "name" : "vandpibe/validator",
     "type" : "library",
-    "description" : "Skeleton",
+    "description" : "Validator",
     "license" : "MIT",
     "authors" : [{
         "name" : "Henrik Bjornskov",
@@ -9,12 +9,11 @@
     }],
     "autoload" : {
         "psr-0" : {
-            "Vandpibe\\Skeleton" : "lib"
+            "Vandpibe\\Validator" : "lib"
         }
     },
     "require" : {
-        "php"                : ">=5.3.3"
-    },
-    "require-dev" : {
+        "php"                : ">=5.3.3",
+        "symfony/validator"  : "2.1.*"
     }
 }
